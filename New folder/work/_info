@@ -1,0 +1,195 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1
+vecg_lut
+Z1 !s100 NnfjGEjQg1SLFEY:^bVC:2
+Z2 IQ;Bzo39lUFG[5N0HigDeY2
+Z3 VghzUJ2@o_54YfTNR;WH1Y1
+Z4 dE:\BACH KHOA\252\DSP on FPGA\BTL FPGA\LAB1\New folder
+Z5 w1770095906
+Z6 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_lut.v
+Z7 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_lut.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_lut.v|
+Z10 o-work work -O0
+Z11 !s108 1772084057.524000
+Z12 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_lut.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vecg_wave
+Z13 !s100 82i?H[9DfD:PmSjmGl0M`3
+Z14 IWlQNk^e=F0C`6NYM8X5WR3
+Z15 VcX5^=kbY=h?O4HkF_VJff0
+R4
+Z16 w1772083666
+Z17 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_wave.v
+Z18 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_wave.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_wave.v|
+R10
+Z20 !s108 1772084057.575000
+Z21 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_wave.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfreq_divider
+Z22 !s100 bTQKYBC?KZBeUijGjZY>g1
+Z23 IZ=D:^@:3SjVh9D<EBG[8Z3
+Z24 V54l]OB0JNa6l5k_mYImP03
+R4
+Z25 w1772029712
+Z26 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/freq_divider.v
+Z27 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/freq_divider.v
+L0 3
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/freq_divider.v|
+R10
+Z29 !s108 1772084057.238000
+Z30 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/freq_divider.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsaw_wave
+Z31 !s100 S_g]Iz<0<FJH[?d9CmCJ33
+Z32 IBM?6`PZ0R5z]CD8WgKd_o0
+Z33 V[fb1cE2iIUf:Y>T9l3_382
+R4
+Z34 w1772075787
+Z35 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/saw_wave.v
+Z36 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/saw_wave.v
+L0 1
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/saw_wave.v|
+R10
+Z38 !s108 1772084057.444000
+Z39 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/saw_wave.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsin_lut
+Z40 !s100 zXlN:91VclW:m4G?YWWLj2
+Z41 Ik@m2b6MfKN@G^XUWnG3M^3
+Z42 VDSNiVC]1l_[oIAgZZmdNX3
+R4
+Z43 w1770223390
+Z44 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_lut.v
+Z45 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_lut.v
+L0 3
+R8
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_lut.v|
+R10
+Z47 !s108 1772084057.619000
+Z48 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_lut.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsin_wave
+Z49 !s100 4VH[l?PZTQRCk7bdhCH6F3
+Z50 I72k[YRFa`<3@4SQmbF?HY1
+Z51 VHojJ4ZQDFdd>L]ZSII5IN0
+R4
+Z52 w1772083649
+Z53 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_wave.v
+Z54 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_wave.v
+L0 3
+R8
+r1
+31
+Z55 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_wave.v|
+R10
+!i10b 1
+!s85 0
+Z56 !s108 1772084057.666000
+Z57 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_wave.v|
+!s101 -O0
+vsquare_wave
+Z58 !s100 VLWDhFALPMjXCXUT50gBZ2
+Z59 IP_OZha>YSnfbkGP_K2WbH3
+Z60 Vzg4c3Y8J5S;B7nEY^KZRF1
+R4
+Z61 w1772072657
+Z62 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/square_wave.v
+Z63 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/square_wave.v
+L0 1
+R8
+r1
+31
+Z64 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/square_wave.v|
+R10
+Z65 !s108 1772084057.290000
+Z66 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/square_wave.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest
+!i10b 1
+!s100 OK=lgC7H^^dN8LdXGS:4K3
+IR[[=`Cef^e947az;22l`h2
+Z67 VK0BIK`^:YZRRn]G8Xz7:f1
+R4
+w1772084108
+Z68 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test.v
+Z69 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1772084132.314000
+!s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test.v|
+Z70 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test.v|
+!s101 -O0
+R10
+vtest_tb
+Z71 ImdLd_=ineDY[[Bc7n]?JQ0
+Z72 VRT=GWF@D^J^nIYaC5k:O>1
+R4
+Z73 w1772084019
+Z74 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test_tb.v
+Z75 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test_tb.v
+L0 3
+R8
+r1
+31
+Z76 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test_tb.v|
+R10
+Z77 !s100 fgh4LOYI`4Oj`cic5cX250
+Z78 !s108 1772084057.397000
+Z79 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtrig_wave
+Z80 !s100 cCQIieJTlGM[[KAdf2^R@3
+Z81 IHH`P4ekCWRi:B>^EAzc:J0
+Z82 VO@1hGmA>L=;7NmKBTWc7Y3
+R4
+Z83 w1772083182
+Z84 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/trig_wave.v
+Z85 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/trig_wave.v
+L0 1
+R8
+r1
+31
+Z86 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/trig_wave.v|
+R10
+Z87 !s108 1772084057.476000
+Z88 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/trig_wave.v|
+!i10b 1
+!s85 0
+!s101 -O0

@@ -1,0 +1,71 @@
+{E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_lut.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_lut.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sin_lut
+
+Top level modules:
+	sin_lut
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_lut.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_lut.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ecg_lut
+
+Top level modules:
+	ecg_lut
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/square_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/square_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module square_wave
+
+Top level modules:
+	square_wave
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/sin_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sin_wave
+
+Top level modules:
+	sin_wave
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/trig_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/trig_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module trig_wave
+
+Top level modules:
+	trig_wave
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/freq_divider.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/freq_divider.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module freq_divider
+
+Top level modules:
+	freq_divider
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/test_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_tb
+
+Top level modules:
+	test_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/ecg_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ecg_wave
+
+Top level modules:
+	ecg_wave
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/saw_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/LAB1/New folder/saw_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module saw_wave
+
+Top level modules:
+	saw_wave
+
+} {} {}}

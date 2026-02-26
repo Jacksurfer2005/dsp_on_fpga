@@ -1,0 +1,28 @@
+module test (
+ input clk,
+ input rst,
+ input [1:0] dc,
+ input [1:0] sel
+ output reg signed [15:0] out
+);
+
+ wire clk_en_tb;
+ wire level;
+ 
+ freq_divider u_freq_divider (
+   .clk_in (clk),
+	.rst    (rst),
+	.sel    (sel),
+	.clk_en (clk_en_tb)
+);
+
+ square_wave u_square_wave (
+   .clk  (clk),
+	.rst  (rst),
+	.dc   (dc),
+	.clk_en (clk_en_tb),
+	.level (level),
+	.square_out (out)
+);
+
+endmodule
