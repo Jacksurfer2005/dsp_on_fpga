@@ -1,0 +1,38 @@
+module top_wave_tb(
+);
+
+ reg clk,rst;
+ reg [2:0] sel;
+ wire signed [15:0] signal_out;
+ 
+ top_wave dut (clk,rst,sel,signal_out);
+ 
+ initial begin
+  clk = 0;
+  rst = 1;
+   end
+	
+ always #5 clk = ~clk;
+ 
+ initial begin
+  rst = 1;
+  #2;
+  
+  rst = 0;
+  sel = 3'b000;
+  #100;
+  
+  sel = 3'b001;
+  #100;
+  
+  sel = 3'b010;
+  #100;
+  
+  sel = 3'b011;
+  #100;
+  
+  sel = 3'b100;
+  #100;
+  end
+  
+endmodule

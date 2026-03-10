@@ -1,0 +1,25 @@
+module sin_Wave_tb(
+);
+
+ reg clk, rst;
+ wire [15:0] out_Wave;
+ 
+ initial 
+  begin 
+    clk = 0;
+	 rst = 1;
+	end
+
+ always #5 clk = ~clk;
+ 
+
+ initial 
+  begin
+   rst = 1;
+	#10;
+	
+	rst = 0;
+	#20;
+	end
+	
+endmodule

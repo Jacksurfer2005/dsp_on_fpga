@@ -1,0 +1,40 @@
+module wave_wrapper_tb(
+);
+
+ reg clk,rst;
+ reg enable;
+ reg [2:0] wave_in_wrapper_tb;
+ reg [2:0] amp_wrapper_tb;
+ reg [1:0] dc_wrapper_tb;
+ reg [1:0] noise_sel_tb; 
+ reg [2:0] noise_amp_tb;
+ 
+ wire signed [23:0] wave_in_tb;
+ wire signed [23:0] noise_in_tb;
+ 
+ wave_wrapper dut (clk,rst,enable,wave_in_tb,noise_in_tb,wave_in_wrapper_tb,amp_wrapper_tb,dc_wrapper_tb,noise_sel_tb,noise_amp_tb);
+ 
+ initial 
+  begin
+   clk = 0;
+	rst = 1;
+	enable = 1;
+	 end
+	 
+ always#10 clk = ~clk;
+ 
+ initial
+  begin
+   rst = 1;
+	#40;
+	
+	rst = 0;
+	enable = 1;
+	wave_in_wrapper_tb = 3'b100;
+	amp_wrapper_tb = 3'b000;
+	noise_sel_tb   = 2'b11;
+	noise_amp_tb   = 3'b00;
+	#100000;
+	  end
+	  
+endmodule

@@ -1,0 +1,29 @@
+module noise_freq(
+ input clk_i,
+ input [7:0] fns_sel,
+ input [1:0] sel_i,
+ output clk_o
+);
+
+reg [15:0] div_value; 
+reg [15:0] counter;
+
+always@(*) begin
+  case(sel_i)
+     2'b00: div_value = 16'd50000; // 50Hz
+	  2'b01: div_value = 16'd25000; // 1KHz
+	  2'b10: div_value = 16'd10000; // 2.5KHz
+	  2'b11: div_value = 16'd5000;  // 5KHz
+	  default: div_value = 16'd50000;
+	    endcase
+end
+
+always@(posedge clk_i) begin
+ if (counter >= div_value) begin
+     counter <= 16'd0;
+	  clk_o <= ~clk_o;
+ end else
+     counter <= counter + 1'b1;
+end
+
+endmodule

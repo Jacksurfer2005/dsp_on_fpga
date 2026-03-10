@@ -1,0 +1,134 @@
+{E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FIR
+
+Top level modules:
+	FIR
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline3.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline3.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FIR_pipeline3
+
+Top level modules:
+	FIR_pipeline3
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/top.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/top.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/single_port_RAM.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/single_port_RAM.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module single_port_RAM
+
+Top level modules:
+	single_port_RAM
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module my_DFF
+
+Top level modules:
+	my_DFF
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/i2c_protocol.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/i2c_protocol.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module i2c_protocol
+
+Top level modules:
+	i2c_protocol
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/ref_fironfpga.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/ref_fironfpga.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ref_fironfpga
+
+Top level modules:
+	ref_fironfpga
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF_40.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF_40.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module my_DFF_40
+
+Top level modules:
+	my_DFF_40
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_400K.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_400K.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module clk_400K
+
+Top level modules:
+	clk_400K
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_12M.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_12M.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module clk_12M
+
+Top level modules:
+	clk_12M
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/count_addr_RAM.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/count_addr_RAM.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module count_addr_RAM
+
+Top level modules:
+	count_addr_RAM
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/multi.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/multi.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module multi
+
+Top level modules:
+	multi
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/config_codec.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/config_codec.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module config_codec
+
+Top level modules:
+	config_codec
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/paralell_serial.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/paralell_serial.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module paralell_serial
+
+Top level modules:
+	paralell_serial
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/fir_filter.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/fir_filter.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fir_filter
+
+Top level modules:
+	fir_filter
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/audio_codec.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/audio_codec.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module audio_codec
+
+Top level modules:
+	audio_codec
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_transpose.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_transpose.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FIR_transpose
+
+Top level modules:
+	FIR_transpose
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/gain.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/gain.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module gain
+
+Top level modules:
+	gain
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline2.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline2.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FIR_pipeline2
+
+Top level modules:
+	FIR_pipeline2
+
+} {} {}}

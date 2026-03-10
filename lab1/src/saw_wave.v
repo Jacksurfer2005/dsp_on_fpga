@@ -1,0 +1,14 @@
+module saw_wave (
+ input clk,rst,
+ output reg [15:0] saw_out
+);
+ 
+always@(posedge clk)
+ begin
+  if (rst) 
+     saw_out <= 8'h00;
+  else 
+     saw_out <= saw_out + 1'b1;
+ end
+ 
+endmodule

@@ -1,0 +1,20 @@
+module mux5to1 (
+    input [2:0] sel,
+    input [15:0] i0,
+    input [15:0] i1, 
+    input [15:0] i2, 
+    input signed [15:0] i3, 
+    input signed [15:0] i4, 
+    output signed [15:0] out
+);
+
+assign out =
+            (sel ==3'b000) ? i0:
+            (sel ==3'b001) ? i1:
+            (sel ==3'b010) ? i2:
+            (sel ==3'b011) ? i3:
+            (sel ==3'b100) ? i4:
+                          16'sd0;
+         
+
+endmodule

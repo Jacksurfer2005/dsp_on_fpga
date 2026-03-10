@@ -1,0 +1,36 @@
+module trig_wave(
+ input clk,rst,
+ input  [7:0] max_value,
+ input  [7:0] min_value,
+ output reg [15:0] trig_out
+);
+
+ reg [7:0] counter;
+ reg direc;
+ 
+always@(posedge clk) 
+ begin
+  if (rst) begin
+   trig_out <= 16'd0;
+	counter <= 8'h00;
+	direc   <= 1'b1;
+ end else begin 
+  if (direc) begin
+	 if ( counter == max_value - 1'b1) begin
+	   direc <= 1'b0;
+		counter <= 8'h00;
+		 end
+	 else
+	   counter <= counter + 1'b1;
+		trig_out <= trig_out + 1'b1;
+	   end else begin
+		  if ( counter == min_value - 1'b1) begin
+		    direc <= 1'b1;
+			 trig_out <= trig_out + 1'b1;
+			  end else 
+			   counter <= counter + 1'b1;
+				 end
+				 end
+				  end
+   
+endmodule

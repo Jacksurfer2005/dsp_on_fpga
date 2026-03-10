@@ -1,0 +1,376 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\BACH KHOA\252\DSP on FPGA\BTL FPGA\lab2\TESTER1
+vaudio_codec
+Z1 !s100 2B<PC;9BI3GGZQ;i7C<e^2
+Z2 ICUeXQz8CEFX=<KaKnH^do1
+Z3 VFRG]=ZKo4zEXW6WT>g8;j0
+Z4 dE:\BACH KHOA\252\DSP on FPGA\BTL FPGA\lab2\codec
+Z5 w1773061846
+Z6 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/audio_codec.v
+Z7 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/audio_codec.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/audio_codec.v|
+Z10 o-work work -O0
+Z11 !s108 1773062561.801000
+Z12 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/audio_codec.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vclk_12M
+Z13 !s100 lZbNfU_@YPO^4mGo?OhN53
+Z14 IBTezIJBO:CNmF>^1hiJ1a3
+Z15 Vibo:X7MO2_hZSHPETX7ZX1
+R4
+Z16 w1773061870
+Z17 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_12M.v
+Z18 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_12M.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_12M.v|
+R10
+Z20 nclk_12@m
+Z21 !s108 1773062561.842000
+Z22 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_12M.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vclk_400K
+Z23 !s100 1mR48LLgZkOV0>HSbEJVd2
+Z24 I7o?463M;mjHIh:=KUn6o_0
+Z25 V>hk3`<N`^_kHG?CmXkZ9N2
+R4
+Z26 w1773061876
+Z27 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_400K.v
+Z28 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_400K.v
+L0 1
+R8
+r1
+31
+Z29 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_400K.v|
+R10
+Z30 nclk_400@k
+Z31 !s108 1773062561.880000
+Z32 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/clk_400K.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vconfig_codec
+Z33 !s100 eMj<bf7KZ:H3fh[Gc:W=[3
+Z34 I:oU494lzOMfJ70SfF9mSN3
+Z35 VXobUmEQEmDza=Ne8AK@l62
+R4
+Z36 w1773061884
+Z37 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/config_codec.v
+Z38 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/config_codec.v
+L0 1
+R8
+r1
+31
+Z39 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/config_codec.v|
+R10
+Z40 !s108 1773062561.917000
+Z41 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/config_codec.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcount_addr_RAM
+Z42 !s100 TdP58I3EoWa17SdMPWobd3
+Z43 ImBR6Rb;fzM5lY?@i>C3fB1
+Z44 V`0IMH9mS:5_KV>TOjn1302
+R4
+Z45 w1773061832
+Z46 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/count_addr_RAM.v
+Z47 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/count_addr_RAM.v
+L0 1
+R8
+r1
+31
+Z48 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/count_addr_RAM.v|
+R10
+Z49 ncount_addr_@r@a@m
+Z50 !s108 1773062561.964000
+Z51 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/count_addr_RAM.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFIR
+Z52 !s100 YE5Ro]g?c?YISA:1mf0W82
+Z53 Il6;_oXVS0zXPI6k@J6VK22
+Z54 Vl1;Q`gOb<]i055<<CQbOB3
+R4
+Z55 w1773061509
+Z56 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR.v
+Z57 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR.v
+L0 3
+R8
+r1
+31
+Z58 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR.v|
+R10
+Z59 n@f@i@r
+Z60 !s108 1773062561.997000
+Z61 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfir_filter
+Z62 !s100 4FYSGOU7DS7zG21nelG5J1
+Z63 IIh`aILWQk[0b0c`SG0?I[1
+Z64 VckaCK?53f>7ogiz6=O;<F0
+R4
+Z65 w1773061683
+Z66 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/fir_filter.v
+Z67 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/fir_filter.v
+L0 3
+R8
+r1
+31
+Z68 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/fir_filter.v|
+R10
+Z69 !s108 1773062562.047000
+Z70 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/fir_filter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFIR_pipeline2
+Z71 !s100 l[bjbGAO8W`g`l6em5`2i2
+Z72 I2mVQ[dF_Ha_4K:N^9Q6Ta0
+Z73 Vk:4[zSJamhRR33ZkP9cPZ2
+R4
+Z74 w1773062085
+Z75 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline2.v
+Z76 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline2.v
+L0 3
+R8
+r1
+31
+Z77 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline2.v|
+R10
+Z78 n@f@i@r_pipeline2
+Z79 !s108 1773062562.088000
+Z80 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFIR_pipeline3
+Z81 !s100 J3Zn@;`8]04NPDkY7[FN_0
+Z82 IQ4idIKGH?88e;GDiY?lfD1
+Z83 Vh=;]LLiBb<oNek`RziS^63
+R4
+Z84 w1773062098
+Z85 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline3.v
+Z86 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline3.v
+L0 2
+R8
+r1
+31
+Z87 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline3.v|
+R10
+Z88 n@f@i@r_pipeline3
+Z89 !s108 1773062562.127000
+Z90 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_pipeline3.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFIR_transpose
+Z91 !s100 P>f6gj2<D6O82CiOfzifW0
+Z92 Iikh_R=Q>:^19HPT^X30nj3
+Z93 V937R^eC`b274CMcc^C8c;2
+R4
+Z94 w1773062548
+Z95 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_transpose.v
+Z96 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_transpose.v
+L0 3
+R8
+r1
+31
+Z97 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_transpose.v|
+R10
+Z98 n@f@i@r_transpose
+Z99 !s108 1773062562.170000
+Z100 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/FIR_transpose.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vgain
+Z101 !s100 ;Bo;YeM_P[0EZK??YPkXR1
+Z102 IaJZGaFozE1RiU[8;hQYfA0
+Z103 VPi1gDC`?B8CLWT^a@5@Uj2
+R4
+Z104 w1773062119
+Z105 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/gain.v
+Z106 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/gain.v
+L0 1
+R8
+r1
+31
+Z107 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/gain.v|
+R10
+Z108 !s108 1773062562.212000
+Z109 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/gain.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vi2c_protocol
+Z110 !s100 :57EJ1DRnnh5[?f_X8nFi0
+Z111 IdO3XNJ9c^[BEFS4=^WbI]3
+Z112 V=o<A=:6CcIZI1][d?a6U93
+R4
+Z113 w1773061922
+Z114 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/i2c_protocol.v
+Z115 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/i2c_protocol.v
+L0 1
+R8
+r1
+31
+Z116 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/i2c_protocol.v|
+R10
+Z117 !s108 1773062562.257000
+Z118 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/i2c_protocol.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmulti
+Z119 !s100 KQ6K2M2cQ5TneKLjKDNoP3
+Z120 IT^S@67<Z:eidXD:n5:Q6T0
+Z121 VY>HiT?jNhBz]jOUaUm6lT2
+R4
+Z122 w1773062209
+Z123 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/multi.v
+Z124 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/multi.v
+L0 1
+R8
+r1
+31
+Z125 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/multi.v|
+R10
+Z126 !s108 1773062562.297000
+Z127 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/multi.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmy_DFF
+Z128 !s100 k298BV:`M4]KRj5B7a?@23
+Z129 Im3lbzQSEPYK>=06cFAYQ<2
+Z130 V?N`5g<;ZzY2cg_XSQ>0?73
+R4
+Z131 w1773062238
+Z132 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF.v
+Z133 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF.v
+L0 1
+R8
+r1
+31
+Z134 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF.v|
+R10
+Z135 nmy_@d@f@f
+Z136 !s108 1773062562.337000
+Z137 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmy_DFF_40
+Z138 !s100 X>T:=b>Z`3XFU`EjOM:PC2
+Z139 I9m^;=<?Y26kHojKJ107AU1
+Z140 VLTiJ?ko4UH0ClTAF]>>Sc3
+R4
+Z141 w1773062247
+Z142 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF_40.v
+Z143 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF_40.v
+L0 1
+R8
+r1
+31
+Z144 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF_40.v|
+R10
+Z145 nmy_@d@f@f_40
+Z146 !s108 1773062562.377000
+Z147 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/my_DFF_40.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vparalell_serial
+Z148 !s100 [SJOBzEd`;5nf=LzcoLl]2
+Z149 IoT@9J6a@LPGXfF8k>11AJ3
+Z150 VgR449z>V?=LGPN`8NQbDd1
+R4
+Z151 w1773062257
+Z152 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/paralell_serial.v
+Z153 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/paralell_serial.v
+L0 1
+R8
+r1
+31
+Z154 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/paralell_serial.v|
+R10
+Z155 !s108 1773062562.422000
+Z156 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/paralell_serial.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vref_fironfpga
+Z157 !s100 1R5mjblW?;7H]L?4h2J2Q1
+Z158 I]Gg@Ye@f77noa<[j9N3cK0
+Z159 VLWef4SnE<SFP?`T35De032
+R4
+Z160 w1773062197
+Z161 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/ref_fironfpga.v
+Z162 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/ref_fironfpga.v
+L0 1
+R8
+r1
+31
+Z163 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/ref_fironfpga.v|
+R10
+Z164 !s108 1773062562.462000
+Z165 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/ref_fironfpga.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsingle_port_RAM
+Z166 !s100 G7V=G<NH;=mEUR?H1EEW23
+Z167 I5aUijHn5oXnjNE2l5ImFl3
+Z168 V:m[:oJ2W:5Q2cjlW2YNJV1
+R4
+Z169 w1773062418
+Z170 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/single_port_RAM.v
+Z171 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/single_port_RAM.v
+L0 3
+R8
+r1
+31
+Z172 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/single_port_RAM.v|
+R10
+Z173 nsingle_port_@r@a@m
+!i10b 1
+!s85 0
+Z174 !s108 1773062562.497000
+Z175 !s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/single_port_RAM.v|
+!s101 -O0
+vtop
+!i10b 1
+Z176 !s100 Enk7^=k1O`lUd<OVURL7S1
+Z177 I?K@2YKgma_?abT8`[KW=^2
+Z178 V<d>Sl`416l`J?Kk6ZPE893
+R4
+Z179 w1773062430
+Z180 8E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/top.v
+Z181 FE:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/top.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1773062562.540000
+!s107 E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/top.v|
+Z182 !s90 -reportprogress|300|-work|work|E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/codec/top.v|
+!s101 -O0
+R10

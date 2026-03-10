@@ -1,0 +1,44 @@
+module wave_wrapper(
+ input clk,
+ input rst,
+ input enable,
+ input signed [23:0] wave_in,
+ input signed [23:0] noise_in,
+ input [2:0] wave_in_wrapper,
+ input [2:0] amp_wrapper,
+ input [1:0] dc_wrapper,
+ input [1:0] sel_f_wrapper,
+ input [1:0] noise_sel, 
+ input [2:0] noise_amp,
+ output reg signed [23:0] wave_wrapper
+ 
+);
+ wave_gen u_wave_gen(
+  .clk       (clk),
+  .rst       (rst),
+  .sel_f     (sel_f_wrapper),
+  .dc_sel    (dc_wrapper),
+  .amp_sel   (amp_wrapper),
+  .sel_wave  (wave_in_wrapper),
+  .gen_out   (wave_in)
+);
+
+ noise_top u_noise_top(
+  .clk_t (clk),
+  .rst_t (rst),
+  .sel_n (noise_sel),
+  .sel_amp (noise_amp),
+  .top_o (noise_in)
+);
+
+always@(posedge clk)
+ begin
+   if(rst) 
+	  wave_wrapper <= 0;
+	else if (enable)
+         wave_wrapper <= wave_in;
+   else
+         wave_wrapper <= wave_in + noise_in;
+		end
+	
+endmodule	

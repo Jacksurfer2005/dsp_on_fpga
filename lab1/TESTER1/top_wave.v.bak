@@ -1,0 +1,41 @@
+module top_wave(
+   input clk,rst,
+	input [2:0] sel,
+	output signed [15:0] wave_final
+);
+
+  wire [15:0] io;
+  wire [15:0] i1;
+  wire [15:0] i2;
+  wire signed [15:0] i3;
+  wire signed [15:0] i4;
+  
+saw_wave wave0 (
+        .clk(clk),
+        .rst(rst),
+        .saw_out(i0)
+    );
+    square_wave wave1 (
+        .clk(clk),
+        .rst(rst),
+        .square_out(i1)
+    );
+    trig_wave wave2 (
+        .clk(clk),
+        .rst(rst),
+        .trig_out(i2)
+    );
+    ecg_wave wave3 (
+        .clk(clk),
+        .rst(rst),
+        .ecg_out(i3)
+    );
+    sin_wave wave4 (
+        .clk(clk),
+        .rst(rst),
+        .sin_out(i4)
+    );
+	 
+mux5to1 u_mux (sel,i0,i1,i2,i3,i4,wave_final);
+
+endmodule

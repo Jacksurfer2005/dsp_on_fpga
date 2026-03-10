@@ -1,0 +1,32 @@
+module noise_top(
+ input clk_t,
+ input rst_t,
+ input [1:0] sel_n,
+ input [2:0] sel_amp,
+ output signed [23:0] top_o
+);
+
+ wire signed [15:0] raw_noise;
+ wire en_t;
+ 
+ noise_freq u_noise_freq (
+     .clk_i (clk_t),
+	  .rst_i (rst_t),
+	  .sel_i (sel_n),
+	  .en_f (en_t)
+);
+
+ noise_gen u_noise_gen (
+     .clk_g (clk_t),
+	  .rst_i (rst_t),
+	  .en_g  (en_t),
+	  .gen_o (raw_noise)  
+);
+
+  amp u_amp (
+     .wave (raw_noise),
+	  .amp_sel (sel_amp),
+	  .wave_out (top_o)
+);
+
+endmodule

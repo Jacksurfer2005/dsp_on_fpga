@@ -1,0 +1,345 @@
+# Reading pref.tcl
+# do wave_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying E:/modelsim/modelsim_ase/win32aloem/modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/TESTER1 {C:/Users/Administrator/Desktop/TESTER1/lut_sin.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:41:09 on Mar 05,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Administrator/Desktop/TESTER1" C:/Users/Administrator/Desktop/TESTER1/lut_sin.v 
+# -- Compiling module lut_sin
+# 
+# Top level modules:
+# 	lut_sin
+# End time: 21:41:09 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/TESTER1 {C:/Users/Administrator/Desktop/TESTER1/sin_wave.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:41:09 on Mar 05,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Administrator/Desktop/TESTER1" C:/Users/Administrator/Desktop/TESTER1/sin_wave.v 
+# -- Compiling module sin_wave
+# 
+# Top level modules:
+# 	sin_wave
+# End time: 21:41:09 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/amp.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:15 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/amp.v 
+# -- Compiling module amp
+# 
+# Top level modules:
+# 	amp
+# End time: 21:42:15 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/ecg_wave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:15 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/ecg_wave.v 
+# -- Compiling module ecg_wave
+# 
+# Top level modules:
+# 	ecg_wave
+# End time: 21:42:15 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/freq_divider.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:15 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/freq_divider.v 
+# -- Compiling module freq_divider
+# 
+# Top level modules:
+# 	freq_divider
+# End time: 21:42:15 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/lut_ecg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:15 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/lut_ecg.v 
+# -- Compiling module lut_ecg
+# 
+# Top level modules:
+# 	lut_ecg
+# End time: 21:42:15 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/lut_sin.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:15 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/lut_sin.v 
+# -- Compiling module lut_sin
+# 
+# Top level modules:
+# 	lut_sin
+# End time: 21:42:15 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/mux5to1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:15 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/mux5to1.v 
+# -- Compiling module mux5to1
+# 
+# Top level modules:
+# 	mux5to1
+# End time: 21:42:15 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/saw_wave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:15 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/saw_wave.v 
+# -- Compiling module saw_wave
+# 
+# Top level modules:
+# 	saw_wave
+# End time: 21:42:15 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/sin_wave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:15 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/sin_wave.v 
+# -- Compiling module sin_wave
+# 
+# Top level modules:
+# 	sin_wave
+# End time: 21:42:15 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/square_wave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:15 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/square_wave.v 
+# -- Compiling module square_wave
+# 
+# Top level modules:
+# 	square_wave
+# End time: 21:42:16 on Mar 05,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/top_wave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:16 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/top_wave.v 
+# -- Compiling module top_wave
+# 
+# Top level modules:
+# 	top_wave
+# End time: 21:42:16 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/top_wave_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:16 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/top_wave_tb.v 
+# -- Compiling module top_wave_tb
+# 
+# Top level modules:
+# 	top_wave_tb
+# End time: 21:42:16 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/trig_wave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:42:16 on Mar 05,2026
+# vlog -reportprogress 300 -work work C:/Users/Administrator/Desktop/TESTER1/trig_wave.v 
+# -- Compiling module trig_wave
+# 
+# Top level modules:
+# 	trig_wave
+# End time: 21:42:16 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.top_wave_tb
+# vsim work.top_wave_tb 
+# Start time: 21:42:22 on Mar 05,2026
+# Loading work.top_wave_tb
+# Loading work.top_wave
+# Loading work.freq_divider
+# Loading work.square_wave
+# Loading work.saw_wave
+# Loading work.trig_wave
+# Loading work.sin_wave
+# Loading work.lut_sin
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /top_wave_tb/dut/u_sin_wave/u_rom File: C:/Users/Administrator/Desktop/TESTER1/lut_sin.v Line: 59
+#         Searched libraries:
+#             C:/Users/Administrator/Desktop/TESTER1/simulation/modelsim/rtl_work
+# Loading work.ecg_wave
+# Loading work.lut_ecg
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /top_wave_tb/dut/u_ecg_wave/u_rom File: C:/Users/Administrator/Desktop/TESTER1/lut_ecg.v Line: 59
+#         Searched libraries:
+#             C:/Users/Administrator/Desktop/TESTER1/simulation/modelsim/rtl_work
+# Loading work.mux5to1
+# Error loading design
+# End time: 21:42:22 on Mar 05,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlib altera_mf
+vmap altera_mf altera_mf
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_mf altera_mf 
+# Modifying E:/modelsim/modelsim_ase/win32aloem/modelsim.ini
+vlog E:/quartus-lite-20.1.0.711-windows/quartus/eda/sim_lib/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:44:03 on Mar 05,2026
+# vlog -reportprogress 300 E:/quartus-lite-20.1.0.711-windows/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 21:44:04 on Mar 05,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.top_wave_tb
+# vsim work.top_wave_tb 
+# Start time: 21:44:07 on Mar 05,2026
+# Loading work.top_wave_tb
+# Loading work.top_wave
+# Loading work.freq_divider
+# Loading work.square_wave
+# Loading work.saw_wave
+# Loading work.trig_wave
+# Loading work.sin_wave
+# Loading work.lut_sin
+# Loading work.altsyncram
+# Loading work.ecg_wave
+# Loading work.lut_ecg
+# Loading work.mux5to1
+# Loading work.altsyncram_body
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/top_wave_tb/clk
+add wave -position end  sim:/top_wave_tb/rst
+add wave -position end  sim:/top_wave_tb/sel_wave_tb
+add wave -position end  sim:/top_wave_tb/sel_tb
+add wave -position end  sim:/top_wave_tb/dc_in_tb
+add wave -position end  sim:/top_wave_tb/test_o
+run 6ms
+run 50ms
+# End time: 21:48:05 on Mar 05,2026, Elapsed time: 0:03:58
+# Errors: 0, Warnings: 0

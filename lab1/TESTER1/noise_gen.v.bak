@@ -1,0 +1,25 @@
+module noise_gen(
+  input clk_g,
+  input en_i,
+  input rst_i,
+  output reg signed [15:0] gen_o
+);
+
+ wire feedback;
+
+ assign feedback = gen_o[15] ^
+                   gen_o[13] ^
+			 		    gen_o[12] ^
+			          gen_o[10];
+
+always@(posedge clk_g) 
+ begin
+  if (rst_i)
+      gen_o <= 16'b1010110100111000;
+  else if (en_i)
+      gen_o <= {feedback,gen_o[15:1]};
+	 end
+	
+endmodule	
+      
+					  

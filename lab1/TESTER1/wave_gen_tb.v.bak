@@ -1,0 +1,33 @@
+'timescale 1ns / 1ps
+
+module wave_gen_tb(
+);
+
+ reg clk,rst;
+ reg [2:0] wave_sel;
+ reg [2:0] amp_sel;
+ reg [2:0] dc_in;
+ wire signed [23:0] gen_out_tb;
+ 
+wave_gen dut (clk,rst,wave_sel,amp_sel,dc_in,gen_out_tb);
+
+ initial begin
+  clk = 0;
+  rst = 1;
+   end
+	
+ always #5 clk = ~clk;
+ 
+ initial begin
+  rst = 1;
+  #10;
+  
+  rst = 0;
+  wave_sel = 3'b000;
+  amp_sel  = 3'b000;
+  dc_in    = 2'b10;
+  #10000;
+  end
+  
+endmodule
+

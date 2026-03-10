@@ -1,0 +1,35 @@
+module square_wave(
+    input clk,rst,
+	 
+	 output reg signed [15:0] square_out
+);
+
+   reg level;
+	reg [2:0] counter;
+
+always@(posedge clk)
+  begin
+    if (rst) begin
+	       level <= 1'b0;
+	       counter <= 3'd0;
+			 square_out <= -16'sd32768;
+		 end
+	 else begin
+       if (counter == 3'd6) begin
+		    counter <= 3'd0;
+		    level <= ~level;
+			end
+		 else
+		    counter <= counter + 1'b1;
+			
+		 if (level)
+		    square_out <= 16'sd32767;
+		 else 
+		    square_out <= -16'sd32768;	  		  
+		   end
+
+end
+	
+	
+endmodule
+		

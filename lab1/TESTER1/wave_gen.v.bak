@@ -1,0 +1,25 @@
+module wave_gen(
+ input clk,rst,
+ input [2:0] wave_sel,
+ input [2:0] amp_sel,
+ input [1:0] dc_in,
+ output signed [25:0] gen_out
+);
+
+wire signed [15:0] wave_raw;
+
+top_wave u_top_wave (
+  .clk (clk),
+  .rst (rst),
+  .sel (wave_sel),
+  .dc_in (dc_in),
+  .wave_final (wave_raw)
+);
+
+amp u_amp(
+  .wave (wave_raw),
+  .amp_sel (amp_sel),
+  .wave_out (gen_out)
+);
+
+endmodule 

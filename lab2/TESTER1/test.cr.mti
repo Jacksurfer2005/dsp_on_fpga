@@ -1,0 +1,231 @@
+{E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_gen.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_gen.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module noise_gen
+
+Top level modules:
+	noise_gen
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/wave_wrapper_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/wave_wrapper_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module wave_wrapper_tb
+
+Top level modules:
+	wave_wrapper_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/trig_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/trig_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module trig_wave
+
+Top level modules:
+	trig_wave
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/top_module.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/top_module.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module top_module
+
+Top level modules:
+	top_module
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_ecg_inst.v} {0 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_ecg_inst.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_ecg_inst.v(1): near "lut_ecg": syntax error, unexpected IDENTIFIER, expecting class
+
+} {3.0 4.0} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/wave_gen_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/wave_gen_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module wave_gen_tb
+
+Top level modules:
+	wave_gen_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/top_wave_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/top_wave_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module top_wave_tb
+
+Top level modules:
+	top_wave_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_freq.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_freq.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module noise_freq
+
+Top level modules:
+	noise_freq
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/ecg_lut.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/ecg_lut.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ecg_lut
+
+Top level modules:
+	ecg_lut
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_ecg.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_ecg.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lut_ecg
+
+Top level modules:
+	lut_ecg
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_sin_inst.v} {0 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_sin_inst.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_sin_inst.v(1): near "lut_sin": syntax error, unexpected IDENTIFIER, expecting class
+
+} {3.0 4.0} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/mux5to1.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/mux5to1.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux5to1
+
+Top level modules:
+	mux5to1
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_gen_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_gen_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module noise_gen_tb
+
+Top level modules:
+	noise_gen_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/wave_gen.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/wave_gen.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module wave_gen
+
+Top level modules:
+	wave_gen
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_top_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_top_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module noise_top_tb
+
+Top level modules:
+	noise_top_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/saw_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/saw_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module saw_wave
+
+Top level modules:
+	saw_wave
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_ecg_bb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_ecg_bb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lut_ecg
+
+Top level modules:
+	lut_ecg
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_freq_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_freq_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module noise_freq_tb
+
+Top level modules:
+	noise_freq_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_top.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/noise_top.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module noise_top
+
+Top level modules:
+	noise_top
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_sin_bb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_sin_bb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lut_sin
+
+Top level modules:
+	lut_sin
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/ecg_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/ecg_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ecg_wave
+
+Top level modules:
+	ecg_wave
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/sin_wave_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/sin_wave_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sin_wave_tb
+
+Top level modules:
+	sin_wave_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/saw_wave_tb.v} {0 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/saw_wave_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module saw_wave_tb
+** Error: E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/saw_wave_tb.v(26): near "#": syntax error, unexpected '#', expecting ';'
+
+} {4.0 5.0} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/sq_wave_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/sq_wave_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sq_wave_tb
+
+Top level modules:
+	sq_wave_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/square_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/square_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module square_wave
+
+Top level modules:
+	square_wave
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/wave_wrapper.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/wave_wrapper.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module wave_wrapper
+
+Top level modules:
+	wave_wrapper
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/freq_divider.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/freq_divider.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module freq_divider
+
+Top level modules:
+	freq_divider
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/sin_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/sin_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sin_wave
+
+Top level modules:
+	sin_wave
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/top_wave.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/top_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module top_wave
+
+Top level modules:
+	top_wave
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/trig_wave_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/trig_wave_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module trig_wave_tb
+
+Top level modules:
+	trig_wave_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_sin.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/lut_sin.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lut_sin
+
+Top level modules:
+	lut_sin
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/ecg_wave_tb.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/ecg_wave_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ecg_wave_tb
+
+Top level modules:
+	ecg_wave_tb
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/amp.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/amp.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module amp
+
+Top level modules:
+	amp
+
+} {} {}} {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/sin_lut.v} {1 {vlog -work work {E:/BACH KHOA/252/DSP on FPGA/BTL FPGA/lab2/TESTER1/sin_lut.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sin_lut
+
+Top level modules:
+	sin_lut
+
+} {} {}}
